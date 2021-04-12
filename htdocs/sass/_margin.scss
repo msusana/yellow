@@ -1,0 +1,26 @@
+.marginCenter1{
+    margin: 0 10%;
+}
+.marginCenter2{
+    margin: 0 20%;
+}
+.marginCenter3{
+    margin: 0 30%;
+}
+.marginTop1{
+    margin-top: 10%;
+}
+.margin{
+    margin: 0 5%;
+}
+.marginBottom{
+    margin-bottom: 5%;
+}
+
+.borderLeft{
+    border-left: 0.5px $lightgray solid;
+}
+.borderLeftRight{
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+}

@@ -1,0 +1,32 @@
+.textBold{
+    font-weight: bolder;
+}
+.alignTextCenter{
+    text-align: center;
+}
+.decorationNone{
+    text-decoration: none;
+}
+
+.decorationNone:hover{
+    color:$black;
+}
+.alignTextJustifyCenter{
+    text-align: justify;
+    text-align-last: center;
+}
+.alignTextJustify{
+    text-align: justify;
+}
+.radius{
+    border-radius: 50%;
+}
+.radiosButton{
+    border-radius: 10%;
+}
+.alignTextRight{
+    text-align:right;
+}
+.alignTextEnd{
+    text-align: end;
+}

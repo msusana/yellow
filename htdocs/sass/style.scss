@@ -1,0 +1,200 @@
+@import '_variables.scss';
+@import '../bootstrap/scss/bootstrap.scss';
+@import '_background.scss';
+@import '_textColor.scss';
+@import '_text.scss';
+@import '_img.scss';
+@import '_margin.scss';
+
+
+#presentation{
+    background-image: url('../images/bkg-hero-header.jpg');
+    font-size: 15px;
+    img{
+    width: 10%;
+    }
+    .presentation-text{
+        padding-top: 10%;
+    }
+    a{
+        font-size: 10px;
+        margin: 5px;
+    }
+    button{
+        width: 150px;
+        padding: 10px;
+        margin: 5% 1% 20% 1%;
+    }
+    button:hover{
+        transform: scale(1.1);}
+} 
+
+#about{
+    margin: 5%;
+    h2{
+    margin: 5%;
+    }
+}
+
+#projects{
+    p{
+        margin-bottom: 5%;
+    } 
+    img{
+        width:25%;
+    }
+}
+
+#testimonials{
+    padding: 5%;
+    background-image: url('../images/bkg-testimonial.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    img{
+        border-radius: 50%;
+        margin: 5%;
+        width: 15vw;
+        height: 15vh;
+    }
+    i{
+        font-size: 100px;
+        margin-top: -4%;
+    }
+    
+    .buttonCarousel .next i{
+        font-size: 20px;
+    }
+    .buttonCarousel .prev i{
+        font-size: 20px;
+    }
+    .bkgTestimonials1{
+        padding: 5%;
+        background-color: $purple;
+    }
+    .bkgTestimonials2{
+        padding: 5%;
+        background-color: $purple2;
+    }
+    .bkgTestimonials3{
+        padding: 5%;
+        background-color: $purple3;
+    }
+    .bkgTestimonials4{
+        padding: 5%;
+        background-color: $purple4;
+    }
+    
+}
+
+
+#services{
+    margin: 5%;
+    .services{
+        font-size: 15px;
+    }
+    .services:hover{
+        transform: scale(1.1);
+    }
+    .services p:first-child{
+        font-size:30px;
+    } 
+}
+
+#latestNews{
+    background-color: #222f36;
+    background-size: auto;
+    padding: 10%;
+
+    button{
+        margin: 5%;
+        width: 12vw;
+        padding: 1%;
+        height: auto;
+    }
+    button span{
+        margin: 5%;
+        
+    }
+    button:hover{
+        transform: scale(1.1);
+    }
+    .news{
+        
+        font-size: 1em; 
+        
+    }
+    .news:hover{
+        transform: scale(1.1);
+    }
+    .news h4{
+        margin-top: 10%;
+        padding: 5%;
+    }
+    p{
+        padding: 5%; 
+    }
+    img{
+        width: 100%;
+    }
+    .icono{
+        padding: 3%;
+    }
+}
+#clients{
+    background-image: url('../images/bkg-counter.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding: 5%;
+    h3{
+        padding: 20%;
+        font-size: 50px;
+    }
+    p{
+        font-size: 30px;
+    }
+    .clientBorder{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+#contacts{
+    font-size: 12px;
+    padding-top: 3%;
+    padding: 5%;
+    .contact{
+        margin: 5%;
+    }
+    p{
+        padding-left: 10%;
+    }
+    button{
+        margin-top: 1%;
+        width: 100px;
+        padding: 1%;
+        font-size: 15px;
+
+    }
+    button:hover{
+        transform: scale(1.1);
+    }
+    
+}
+
+#information{
+    background-color: rgba(41,40,37,255);
+    background-size: cover;
+    padding: 5%;
+    font-size: 1em;
+.information h4{
+    margin-bottom: 20%;
+}.option:hover{
+    background-color: rgb(31, 30, 30);
+    transform: scale(1.1);
+}
+}
+footer{
+    background-color: rgb(31, 30, 30);
+    padding: 2%;
+}
